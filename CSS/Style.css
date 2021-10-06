@@ -1,0 +1,186 @@
+* {
+    margin: 0%;
+}
+
+.page {
+    background-image: url(https://1.bp.blogspot.com/-czB2k0F69Hw/XueTGTrSTcI/AAAAAAAAxxI/9ocTORRiJ1Q1-YpcuZghOJaS5KIPMjPSACLcBGAsYHQ/s2560/camping_hiking_garland_173564_1920x1080.jpg);
+    max-width: 100%;
+    background-position: center center;
+    background-size: cover;
+    padding: 190px 20px;
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+    color: azure;
+    text-shadow: 2px 2px black;
+    max-width: 100%;
+}
+
+.Info {
+    max-width: 100%;
+    font-size: 14pt;
+    color: azure;
+    text-align: center;
+    margin: 30px 100px 40px 100px;
+    text-shadow: 2px 2px black;
+}
+
+@media screen and (max-width: 600px) {
+    .page {
+        padding: 50px 20px;
+    }
+    .titulo {
+        font-size: 20pt;
+    }
+    .Info {
+        font-size: 12pt;
+        margin: 20px 50px 30px 50px;
+    }
+}
+
+.titulo-mark span {
+    color: rgb(1, 97, 153);
+}
+
+.button-tentas {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 10px 35px;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid rgb(0, 0, 0);
+    transition: .6s linear;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px 0.2px rgb(255, 255, 255);
+}
+
+.button-tentas:hover {
+    background: rgb(218, 142, 2);
+    color: #fff;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 0.2px rgb(218, 142, 2);
+}
+
+.fundo {
+    background-color: rgb(26, 26, 26);
+}
+
+.barraca {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0.2px rgb(0, 0, 0);
+}
+
+.box-info {
+    max-width: 100%;
+    margin: 15px 0px 0px -50px;
+    color: #fff;
+}
+
+.about span {
+    color: rgb(3, 134, 211);
+    text-shadow: 2px 2px black;
+}
+
+.Join span {
+    color: rgb(158, 235, 43);
+}
+
+.barraca-img {
+    max-width: 100%;
+    margin: 150px 0px 0px 0px;
+}
+
+@media screen and (max-width: 1080px) {
+    .box-info {
+        margin: 30px 10px -50px 5px;
+    }
+    .fundo {
+        padding: 0px 0px 150px 0px;
+        margin-bottom: -60px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .barraca-img {
+        margin: 80px 0px -25px 5px;
+        width: 450px;
+        max-width: 100%;
+    }
+}
+
+.background-lugar {
+    background-color: rgb(20, 20, 20);
+    margin: 0px 0px 0px 0px;
+}
+
+.local-acamp .lugar {
+    max-width: 100%;
+    margin: 50px 0px 20px 20px;
+    box-shadow: -20px -17px 0px 2px #30E5F4;
+    border-radius: 10px;
+}
+
+.quality {
+    color: rgb(4, 82, 172);
+    text-shadow: 1px 1px black;
+    margin: 30px 0px 6px 0px;
+}
+
+.design {
+    color: #fff;
+    text-shadow: 2px 2px black;
+}
+
+.design span {
+    color: rgb(4, 148, 158);
+}
+
+.quality-info {
+    color: #fff;
+    text-shadow: 1px 1px black;
+}
+
+.botao-lugares {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 10px 35px;
+    margin: 0px 0px 0px 0px;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid rgb(0, 0, 0);
+    transition: .6s linear;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px 0.2px rgb(34, 34, 34);
+}
+
+.botao-lugares:hover {
+    background: rgb(2, 204, 218);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px 0.2px rgb(2, 193, 218);
+}
+
+@media screen and (max-width: 1080px) {
+    .local-acamp .lugar {
+        margin: 70px 350px -50px 2px;
+        box-shadow: -20px -17px 0px 2px #30E5F4;
+        box-shadow: 0px 0px 10px 0.2px rgb(2, 193, 218);
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .align-text {
+        margin: 50px 0px 40px 10px;
+    }
+}
