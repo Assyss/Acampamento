@@ -3,11 +3,11 @@
 }
 
 .page {
-    background-image: url(https://initiate.alphacoders.com/images/880/cropped-1920-1081-880812.jpg?1550);
+    background-image: url(https://images.alphacoders.com/885/thumb-1920-885414.jpg);
     max-width: 100%;
     background-position: center center;
     background-size: cover;
-    padding: 190px 20px;
+    padding: 210px 20px;
     text-align: center;
 }
 
@@ -61,27 +61,28 @@
     border-radius: 30px;
     cursor: pointer;
     font-weight: bold;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
     transition: .6s linear;
     text-decoration: none;
-    box-shadow: 0px 0px 10px 0.2px rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 2px #ffffff;
 }
 
 .button-tentas:hover {
-    background: rgb(218, 142, 2);
+    background: #FEA825;
     color: #fff;
     border: 2px solid rgb(255, 255, 255);
-    box-shadow: 0px 0px 10px 0.2px rgb(218, 142, 2);
+    box-shadow: 0px 0px 10px 0.2px #FEA825;
 }
 
 .fundo {
+    max-width: 100%;
     background-color: rgb(26, 26, 26);
 }
 
 .barraca {
     max-width: 100%;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 0.2px rgb(0, 0, 0);
+    box-shadow: 18px -15px rgb(251, 250, 250);
 }
 
 .box-info {
@@ -116,15 +117,17 @@
 
 @media screen and (max-width: 1080px) {
     .barraca-img {
-        margin: 80px 0px -25px 5px;
+        margin: 80px 12px -25px 0px;
         width: 450px;
         max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 18px -10px 0px -10px rgb(251, 250, 250);
     }
 }
 
 .background-lugar {
+    max-width: 100%;
     background-color: rgb(20, 20, 20);
-    margin: 0px 0px 0px 0px;
 }
 
 .local-acamp .lugar {
@@ -181,8 +184,7 @@
 @media screen and (max-width: 1080px) {
     .local-acamp .lugar {
         margin: 70px 350px -50px 2px;
-        box-shadow: -20px -17px 0px 2px #30E5F4;
-        box-shadow: 0px 0px 10px 0.2px rgb(2, 193, 218);
+        box-shadow: -7px -11px 0px 2px #30E5F4;
     }
 }
 
@@ -194,7 +196,7 @@
 
 .background-exp {
     background-color: rgb(10, 10, 10);
-    padding: 0px 0px 10px 0px;
+    padding: 30px 0px 70px 20px;
 }
 
 .container-exp {
@@ -204,12 +206,14 @@
 .about-exp {
     color: #EAD3AD;
     text-shadow: 1px 1px rgb(14, 13, 13);
-    margin: 30px 0px 15px 0px;
+    margin: 0px 0px 20px -40px;
 }
 
 .titulo-exp {
+    max-width: 100%;
     text-shadow: 0.5px 0.5px rgb(160, 160, 160);
-    margin: 15px -10px 15px -10px;
+    margin: 0px 190px 15px -450px;
+    padding: 0px 250px 0px 410px;
 }
 
 .titulo-exp span {
@@ -218,9 +222,12 @@
 }
 
 .info-exp {
+    max-width: 100%;
     color: #fff;
+    font-size: 14pt;
     text-shadow: 1px 1px rgb(14, 13, 13);
-    margin: 0px 80px 10px -5px;
+    margin: -170px 470px 20px -320px;
+    padding: 0px 310px 0px 290px;
 }
 
 .button-exp {
@@ -228,7 +235,7 @@
     color: rgb(255, 255, 255);
     display: inline-block;
     padding: 10px 35px;
-    margin: 5px 0px 0px 0px;
+    margin: 10px 0px 0px 110px;
     font-size: 18px;
     text-transform: capitalize;
     border-radius: 30px;
@@ -249,7 +256,112 @@
 
 .camp-exp .img-exp {
     max-width: 100%;
+    width: 600px;
     border-radius: 20px;
-    margin: 35px 0px 0px 0px;
+    margin: -160px 0px 0px 540px;
     box-shadow: 18px -15px rgb(251, 250, 250);
+}
+
+@media screen and (max-width: 1080px) {
+    .about-exp {
+        margin: -15px -10px 0px -10px;
+    }
+    .titulo-exp {
+        padding: 0px 20px 0px 20px;
+        margin: 15px 0px 15px 0px;
+        text-align: center;
+    }
+    .info-exp {
+        padding: 0px 50px 0px 50px;
+        margin: 20px 0px 0px 0px;
+        text-align: center;
+    }
+    .button-exp {
+        margin: 20px 0px 0px 0px;
+    }
+    .background-exp {
+        margin: 0px 0px 0px 0px;
+        padding: 50px 20px;
+    }
+    .align-btn {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .align-img {
+        text-align: center;
+    }
+    .camp-exp .img-exp {
+        max-width: 100%;
+        margin: 20px 0px 10px 0px;
+        width: 500px;
+        box-shadow: 6px -6px 0px 5px rgb(251, 250, 250);
+    }
+}
+
+.background-colunas {
+    background-color: rgb(34, 34, 34);
+    padding: 30px 0px 70px 0px;
+}
+
+.info-colunns {
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px rgb(14, 13, 13);
+}
+
+.info-colunns span {
+    color: rgb(201, 223, 4);
+    text-shadow: 1px 1px rgb(216, 216, 216);
+}
+
+.box {
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(148, 146, 9);
+    cursor: pointer;
+}
+
+.box:hover {
+    border: 2px solid rgb(181, 194, 7);
+    background-color: #F8F9FA;
+    color: rgb(181, 194, 7);
+    box-shadow: 0px 0px 1px 1px rgb(228, 226, 226);
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    transition: .2s gradient linear;
+    display: initial;
+}
+
+.box p {
+    color: #000;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    margin: 2px 0px 10px 0px;
+}
+
+.background-contacts {
+    color: #fff;
+    background-color: rgb(87, 85, 85);
+    padding: 10px 0px 5px 0px;
+}
+
+.contact {
+    padding: 5px 0px 0px 0px;
+    margin: 0px 100px 0px 40px;
+}
+
+.contact i {
+    color: rgb(218, 214, 214);
+}
+
+.contact span {
+    color: rgb(207, 1, 1);
+}
+
+.contact .titulo-camping {
+    text-shadow: 1px 1px rgb(17, 17, 17);
 }
