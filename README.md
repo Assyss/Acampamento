@@ -1,2 +1,2 @@
 # Acampamento
- Um pequeno site de acampamentos 
+ Um pequeno site de acampamento
