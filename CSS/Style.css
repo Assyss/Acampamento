@@ -82,7 +82,7 @@
 .barraca {
     max-width: 100%;
     border-radius: 10px;
-    box-shadow: 18px -15px rgb(251, 250, 250);
+    box-shadow: 10px -10px 0px 4px #FFA84A;
 }
 
 .box-info {
@@ -121,7 +121,7 @@
         width: 450px;
         max-width: 100%;
         border-radius: 10px;
-        box-shadow: 18px -10px 0px -10px rgb(251, 250, 250);
+        /* box-shadow: -7px -11px 0px 2px rgb(251, 250, 250); */
     }
 }
 
@@ -334,13 +334,21 @@
     border-radius: 10px;
     padding: 5px 10px 5px 10px;
     transition: .2s gradient linear;
-    display: initial;
+    display: inherit;
 }
 
 .box p {
     color: #000;
     text-shadow: 1px 1px rgb(255, 255, 255);
     margin: 2px 0px 10px 0px;
+}
+
+.box h6 {
+    margin: 5px 0px 0px 0px;
+}
+
+.box i {
+    padding: 0px 0px 0px 0px;
 }
 
 .background-contacts {
@@ -350,8 +358,14 @@
 }
 
 .contact {
-    padding: 5px 0px 0px 0px;
-    margin: 0px 100px 0px 40px;
+    padding: 5px 0px 5px 0px;
+    margin: 0px 0px 0px 40px;
+}
+
+.contact li {
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 3px 0px;
 }
 
 .contact i {
@@ -360,6 +374,7 @@
 
 .contact span {
     color: rgb(207, 1, 1);
+    text-shadow: 1px 1px rgb(0, 0, 0);
 }
 
 .contact .titulo-camping {
